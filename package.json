@@ -1,6 +1,6 @@
 {
 	"name": "liferay-funny-remove",
-	"version": "0.0.11",
+	"version": "0.0.13",
 	"description": "Funny stuff",
 	"dependencies": {
 		"async": "^1.5.2",
