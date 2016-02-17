@@ -20,12 +20,14 @@ Usage: `liferay-funny-remove <command> [options]`
 | remove-wc-versions <filename> | remove web contents' versions listed in given CSV file, but spare first N versions with --spare (defaults to 1) |
 | remove-layouts <filename> | remove layouts listed in given CSV file |
 
-> Options:
+#### Options:
+```
   --username, -u  liferay admin username                              [required]
   --password, -p  liferay admin username                              [required]
   --url, -l       liferay hostname                                    [required]
   --groupId, -g   liferay group id                           [number] [required]
   -h, --help      Show help                                            [boolean]
+```
 
 Examples:
 
