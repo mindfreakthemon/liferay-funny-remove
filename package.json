@@ -1,0 +1,23 @@
+{
+  "name": "liferay-funny-remove",
+  "version": "0.0.1",
+  "description": "Funny stuff",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "csv-parse": "^1.0.1",
+    "liferay-connector": "^0.8.1",
+    "yargs": "^4.1.0"
+  },
+  "devDependencies": {},
+  "author": "Vitalii Rakovtsii",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindfreakthemon/liferay-funny-remove.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mindfreakthemon/liferay-funny-remove/issues"
+  },
+  "homepage": "https://github.com/mindfreakthemon/liferay-funny-remove#readme"
+}
