@@ -37,7 +37,7 @@ Please note, you have to pass `-u *admin* -p *pass* -l *myliferayhostname.com* -
 | --- | --- |
 | liferay-funny-remove remove-wcs remove-wcs.csv  | remove webcontents |
 | liferay-funny-remove remove-wc-versions remove-wc-versions.csv -s 3 | remove all versions but last 3 |
-| liferay-funny-remove remove-layouts remove-layouts.csv -u | remove all layouts |
+| liferay-funny-remove remove-layouts remove-layouts.csv | remove all layouts |
 
 Example remove-wcs.csv file (contains articleId-s):
 
