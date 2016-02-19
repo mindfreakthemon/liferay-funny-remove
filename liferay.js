@@ -101,7 +101,7 @@ class LiferaySession {
 	deleteArticles(articleIds, callback) {
 		async.parallelLimit(
 			articleIds
-				.map(articleId => this.deleteArticle.bind(this, articleId)),
+				.map(combination => this.deleteArticle.bind(this, combination.pop())),
 			this.PARALLEL_LIMIT,
 			callback);
 	}
